@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18B74C8322B2F76000D17C55 /* Red.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 18B74C7D22B2F75F00D17C55 /* Red.m4a */; };
+		18B74C8422B2F76000D17C55 /* Blue.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 18B74C7E22B2F75F00D17C55 /* Blue.m4a */; };
+		18B74C8522B2F76000D17C55 /* Orange.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 18B74C7F22B2F75F00D17C55 /* Orange.m4a */; };
+		18B74C8622B2F76000D17C55 /* Purple.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 18B74C8022B2F75F00D17C55 /* Purple.m4a */; };
+		18B74C8722B2F76000D17C55 /* Green 2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 18B74C8122B2F75F00D17C55 /* Green 2.m4a */; };
+		18B74C8822B2F76000D17C55 /* Yellow.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 18B74C8222B2F75F00D17C55 /* Yellow.m4a */; };
+		18B74C8B22B2F77900D17C55 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18B74C8A22B2F77900D17C55 /* AVFoundation.framework */; };
 		18ED776622B16D26006D05E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18ED776522B16D26006D05E6 /* AppDelegate.swift */; };
 		18ED776822B16D26006D05E6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18ED776722B16D26006D05E6 /* ViewController.swift */; };
 		18ED776B22B16D26006D05E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18ED776922B16D26006D05E6 /* Main.storyboard */; };
@@ -15,6 +22,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		18B74C7D22B2F75F00D17C55 /* Red.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Red.m4a; sourceTree = "<group>"; };
+		18B74C7E22B2F75F00D17C55 /* Blue.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Blue.m4a; sourceTree = "<group>"; };
+		18B74C7F22B2F75F00D17C55 /* Orange.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Orange.m4a; sourceTree = "<group>"; };
+		18B74C8022B2F75F00D17C55 /* Purple.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Purple.m4a; sourceTree = "<group>"; };
+		18B74C8122B2F75F00D17C55 /* Green 2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Green 2.m4a"; sourceTree = "<group>"; };
+		18B74C8222B2F75F00D17C55 /* Yellow.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Yellow.m4a; sourceTree = "<group>"; };
+		18B74C8A22B2F77900D17C55 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		18ED776222B16D26006D05E6 /* kidsKolor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kidsKolor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18ED776522B16D26006D05E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18ED776722B16D26006D05E6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -29,17 +43,33 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18B74C8B22B2F77900D17C55 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18B74C8922B2F77800D17C55 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18B74C8A22B2F77900D17C55 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		18ED775922B16D26006D05E6 = {
 			isa = PBXGroup;
 			children = (
 				18ED776422B16D26006D05E6 /* kidsKolor */,
 				18ED776322B16D26006D05E6 /* Products */,
+				18B74C7E22B2F75F00D17C55 /* Blue.m4a */,
+				18B74C8122B2F75F00D17C55 /* Green 2.m4a */,
+				18B74C7F22B2F75F00D17C55 /* Orange.m4a */,
+				18B74C8022B2F75F00D17C55 /* Purple.m4a */,
+				18B74C7D22B2F75F00D17C55 /* Red.m4a */,
+				18B74C8222B2F75F00D17C55 /* Yellow.m4a */,
+				18B74C8922B2F77800D17C55 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,8 +153,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				18ED777022B16D28006D05E6 /* LaunchScreen.storyboard in Resources */,
+				18B74C8822B2F76000D17C55 /* Yellow.m4a in Resources */,
 				18ED776D22B16D28006D05E6 /* Assets.xcassets in Resources */,
+				18B74C8322B2F76000D17C55 /* Red.m4a in Resources */,
 				18ED776B22B16D26006D05E6 /* Main.storyboard in Resources */,
+				18B74C8522B2F76000D17C55 /* Orange.m4a in Resources */,
+				18B74C8422B2F76000D17C55 /* Blue.m4a in Resources */,
+				18B74C8722B2F76000D17C55 /* Green 2.m4a in Resources */,
+				18B74C8622B2F76000D17C55 /* Purple.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

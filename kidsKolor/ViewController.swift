@@ -8,6 +8,23 @@
 
 import UIKit
 import AudioToolbox
+//import AVFoundation
+//
+//var myAudioPlayer = AVAudioPlayer()
+
+//func playAudioFile() {
+    
+//    let audioFileURL = Bundle.main.url(forResource: "<name-of-file>", withExtension: "mp3/wav/m4a etc.")
+//
+//    do {
+//        try myAudioPlayer = AVAudioPlayer(contentsOf: audioFileURL!)
+//    } catch let error {
+//        print(error.localizedDescription)
+//    }
+//
+//    myAudioPlayer.play()
+//
+//}
 
 class ViewController: UIViewController {
 
@@ -29,6 +46,23 @@ class ViewController: UIViewController {
     @IBAction func cactus1(_ sender: UIButton) {
         AudioServicesPlaySystemSound(1521)
     }
+    @IBAction func redSound(_ sender: Any) {
+//        let audioFileURL = Bundle.main.url(forResource: "<Red>", withExtension: "m4a")
+//
+//        do {
+//            if try! AVAudioPlayer(contentsOf: (audioFileURL)!) != nil {
+//                try myAudioPlayer = AVAudioPlayer(contentsOf: (audioFileURL)!)
+//
+//            }
+//        } catch let error {
+//            print(error.localizedDescription)
+//
+//
+//        myAudioPlayer.play()
+//
+//    }
+    }
+    
     
     
     //page two image buttons
@@ -44,6 +78,9 @@ class ViewController: UIViewController {
     @IBAction func shirt2(_ sender: UIButton) {
         AudioServicesPlaySystemSound(1521)
     }
+    @IBAction func orangeSound(_ sender: Any) {
+    }
+    
     
    
     //page three image buttons
@@ -59,6 +96,9 @@ class ViewController: UIViewController {
     @IBAction func duck3(_ sender: UIButton) {
         self.view.backgroundColor = UIColor.yellow
     }
+    @IBAction func yellowSound(_ sender: Any) {
+    }
+    
     
     
     //page four image buttons
@@ -74,6 +114,9 @@ class ViewController: UIViewController {
     @IBAction func cactus4(_ sender: UIButton) {
         self.view.backgroundColor = UIColor.green
     }
+    @IBAction func greenSound(_ sender: Any) {
+    }
+    
     
     
     //page five image buttons
@@ -89,6 +132,9 @@ class ViewController: UIViewController {
     @IBAction func orange5(_ sender: UIButton) {
         AudioServicesPlaySystemSound(1521)
     }
+    @IBAction func blueSound(_ sender: Any) {
+    }
+    
     
     
     //page six image buttons
@@ -104,4 +150,7 @@ class ViewController: UIViewController {
     @IBAction func hat6(_ sender: UIButton) {
         AudioServicesPlaySystemSound(1521)
     }
+    @IBAction func purpleSound(_ sender: Any) {
+    }
+    
 }

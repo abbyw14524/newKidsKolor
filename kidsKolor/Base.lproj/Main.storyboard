@@ -66,6 +66,10 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="🔊"/>
+                                <connections>
+                                    <action selector="hat6:" destination="Q6W-Zr-SoC" eventType="touchUpInside" id="8T9-yD-H7q"/>
+                                    <action selector="redSound:" destination="Q6W-Zr-SoC" eventType="touchUpInside" id="xi3-BV-WeO"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DXk-s2-FUP">
                                 <rect key="frame" x="40" y="216" width="127" height="141"/>
@@ -139,6 +143,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="🔊"/>
+                                <connections>
+                                    <action selector="orangeSound:" destination="brn-Tp-C2m" eventType="touchUpInside" id="Gbd-87-HJw"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J5L-Cu-nf3">
                                 <rect key="frame" x="16" y="219" width="144" height="111"/>
@@ -212,6 +219,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="🔊"/>
+                                <connections>
+                                    <action selector="yellowSound:" destination="Qkv-vl-4Ne" eventType="touchUpInside" id="xcn-oA-EX2"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uAg-Dg-S82">
                                 <rect key="frame" x="54" y="212" width="119" height="92"/>
@@ -285,6 +295,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="🔊"/>
+                                <connections>
+                                    <action selector="greenSound:" destination="po8-OH-y6d" eventType="touchUpInside" id="2By-KO-EQN"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jBs-Mg-269">
                                 <rect key="frame" x="28" y="214" width="114" height="101"/>
@@ -358,6 +371,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="🔊"/>
+                                <connections>
+                                    <action selector="blueSound:" destination="2qH-kK-18M" eventType="touchUpInside" id="IEX-O9-ERt"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rED-6x-eHR">
                                 <rect key="frame" x="16" y="206" width="153" height="120"/>
@@ -431,6 +447,10 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="🔊"/>
+                                <connections>
+                                    <action selector="hat6:" destination="rSg-TB-Nfs" eventType="touchUpInside" id="kl3-as-xeM"/>
+                                    <action selector="purpleSound:" destination="rSg-TB-Nfs" eventType="touchUpInside" id="wrv-fz-don"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q5k-PP-fNj">
                                 <rect key="frame" x="32" y="215" width="133" height="91"/>
