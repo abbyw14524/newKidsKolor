@@ -8,30 +8,24 @@
 
 import UIKit
 import AudioToolbox
-//import AVFoundation
-//
-//var myAudioPlayer = AVAudioPlayer()
+import AVFoundation
 
-//func playAudioFile() {
-    
-//    let audioFileURL = Bundle.main.url(forResource: "<name-of-file>", withExtension: "mp3/wav/m4a etc.")
-//
-//    do {
-//        try myAudioPlayer = AVAudioPlayer(contentsOf: audioFileURL!)
-//    } catch let error {
-//        print(error.localizedDescription)
-//    }
-//
-//    myAudioPlayer.play()
-//
-//}
 
 class ViewController: UIViewController {
 
-//    override func viewDidLoad() {
-//        super.viewDidLoad()
-//        // Do any additional setup after loading the view.
-//    }
+    var audioPlayer = AVAudioPlayer()
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view.
+        let sound = Bundle.main.path(forResource: "Red", ofType: "m4a")
+        do {
+            audioPlayer = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: sound!))
+        }
+        catch{
+            print(error)
+        }
+    }
 
     //page one image buttons
     @IBAction func banana1(_ sender: UIButton) {
@@ -47,20 +41,7 @@ class ViewController: UIViewController {
         AudioServicesPlaySystemSound(1521)
     }
     @IBAction func redSound(_ sender: Any) {
-//        let audioFileURL = Bundle.main.url(forResource: "<Red>", withExtension: "m4a")
-//
-//        do {
-//            if try! AVAudioPlayer(contentsOf: (audioFileURL)!) != nil {
-//                try myAudioPlayer = AVAudioPlayer(contentsOf: (audioFileURL)!)
-//
-//            }
-//        } catch let error {
-//            print(error.localizedDescription)
-//
-//
-//        myAudioPlayer.play()
-//
-//    }
+        audioPlayer.play()
     }
     
     

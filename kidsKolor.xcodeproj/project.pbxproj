@@ -61,14 +61,8 @@
 		18ED775922B16D26006D05E6 = {
 			isa = PBXGroup;
 			children = (
-				18ED776422B16D26006D05E6 /* kidsKolor */,
 				18ED776322B16D26006D05E6 /* Products */,
-				18B74C7E22B2F75F00D17C55 /* Blue.m4a */,
-				18B74C8122B2F75F00D17C55 /* Green 2.m4a */,
-				18B74C7F22B2F75F00D17C55 /* Orange.m4a */,
-				18B74C8022B2F75F00D17C55 /* Purple.m4a */,
-				18B74C7D22B2F75F00D17C55 /* Red.m4a */,
-				18B74C8222B2F75F00D17C55 /* Yellow.m4a */,
+				18ED776422B16D26006D05E6 /* kidsKolor */,
 				18B74C8922B2F77800D17C55 /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +84,12 @@
 				18ED776C22B16D28006D05E6 /* Assets.xcassets */,
 				18ED776E22B16D28006D05E6 /* LaunchScreen.storyboard */,
 				18ED777122B16D28006D05E6 /* Info.plist */,
+				18B74C7D22B2F75F00D17C55 /* Red.m4a */,
+				18B74C7F22B2F75F00D17C55 /* Orange.m4a */,
+				18B74C8222B2F75F00D17C55 /* Yellow.m4a */,
+				18B74C8122B2F75F00D17C55 /* Green 2.m4a */,
+				18B74C7E22B2F75F00D17C55 /* Blue.m4a */,
+				18B74C8022B2F75F00D17C55 /* Purple.m4a */,
 			);
 			path = kidsKolor;
 			sourceTree = "<group>";
