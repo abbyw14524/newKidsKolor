@@ -14,6 +14,11 @@ import AVFoundation
 class ViewController: UIViewController {
 
     var audioPlayer = AVAudioPlayer()
+    var audioPlayer1 = AVAudioPlayer()
+    var audioPlayer2 = AVAudioPlayer()
+    var audioPlayer3 = AVAudioPlayer()
+    var audioPlayer4 = AVAudioPlayer()
+    var audioPlayer5 = AVAudioPlayer()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,6 +26,41 @@ class ViewController: UIViewController {
         let sound = Bundle.main.path(forResource: "Red", ofType: "m4a")
         do {
             audioPlayer = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: sound!))
+        }
+        catch{
+            print(error)
+        }
+        let sound1 = Bundle.main.path(forResource: "Orange", ofType: "m4a")
+        do {
+            audioPlayer1 = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: sound1!))
+        }
+        catch{
+            print(error)
+        }
+        let sound2 = Bundle.main.path(forResource: "Yellow", ofType: "m4a")
+        do {
+            audioPlayer2 = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: sound2!))
+        }
+        catch{
+            print(error)
+        }
+        let sound3 = Bundle.main.path(forResource: "Green 2", ofType: "m4a")
+        do {
+            audioPlayer3 = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: sound3!))
+        }
+        catch{
+            print(error)
+        }
+        let sound4 = Bundle.main.path(forResource: "Blue", ofType: "m4a")
+        do {
+            audioPlayer4 = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: sound4!))
+        }
+        catch{
+            print(error)
+        }
+        let sound5 = Bundle.main.path(forResource: "Purple", ofType: "m4a")
+        do {
+            audioPlayer5 = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: sound5!))
         }
         catch{
             print(error)
@@ -60,6 +100,7 @@ class ViewController: UIViewController {
         AudioServicesPlaySystemSound(1521)
     }
     @IBAction func orangeSound(_ sender: Any) {
+        audioPlayer1.play()
     }
     
     
@@ -78,6 +119,7 @@ class ViewController: UIViewController {
         self.view.backgroundColor = UIColor.yellow
     }
     @IBAction func yellowSound(_ sender: Any) {
+        audioPlayer2.play()
     }
     
     
@@ -96,6 +138,7 @@ class ViewController: UIViewController {
         self.view.backgroundColor = UIColor.green
     }
     @IBAction func greenSound(_ sender: Any) {
+        audioPlayer3.play()
     }
     
     
@@ -114,6 +157,7 @@ class ViewController: UIViewController {
         AudioServicesPlaySystemSound(1521)
     }
     @IBAction func blueSound(_ sender: Any) {
+        audioPlayer4.play()
     }
     
     
@@ -132,6 +176,7 @@ class ViewController: UIViewController {
         AudioServicesPlaySystemSound(1521)
     }
     @IBAction func purpleSound(_ sender: Any) {
+        audioPlayer5.play()
     }
     
 }
