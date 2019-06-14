@@ -62,26 +62,6 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ukg-E3-lj4">
-                                <rect key="frame" x="200" y="558" width="107" height="70"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.77151280283867252" green="0.80669019670050757" blue="0.76222342196529802" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="NEXT">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="NEXT">
-                                            <attributes>
-                                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <font key="NSFont" size="15" name="Verdana-Bold"/>
-                                                <font key="NSOriginalFont" size="15" name="Verdana-Bold"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                </state>
-                                <connections>
-                                    <segue destination="brn-Tp-C2m" kind="show" id="0da-yh-ezQ"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="el9-KP-Mdk">
                                 <rect key="frame" x="70" y="558" width="107" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -846,9 +826,8 @@
     <inferredMetricsTieBreakers>
         <segue reference="mwM-PX-3vC"/>
         <segue reference="ANk-a7-NLg"/>
-        <segue reference="Oa1-gz-VRe"/>
-        <segue reference="0da-yh-ezQ"/>
-        <segue reference="S4P-Mj-ACF"/>
+        <segue reference="Bbb-R9-pLp"/>
+        <segue reference="dWg-wC-0xc"/>
         <segue reference="yDd-CL-S9d"/>
     </inferredMetricsTieBreakers>
 </document>

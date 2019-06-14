@@ -15,6 +15,7 @@
 		18B74C8822B2F76000D17C55 /* Yellow.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 18B74C8222B2F75F00D17C55 /* Yellow.m4a */; };
 		18B74C8B22B2F77900D17C55 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18B74C8A22B2F77900D17C55 /* AVFoundation.framework */; };
 		18B74C8D22B3044D00D17C55 /* Red.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18B74C8C22B3044D00D17C55 /* Red.mp3 */; };
+		18EC0CB022B3EC5D0036F229 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18EC0CAF22B3EC5D0036F229 /* Images.xcassets */; };
 		18ED776622B16D26006D05E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18ED776522B16D26006D05E6 /* AppDelegate.swift */; };
 		18ED776822B16D26006D05E6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18ED776722B16D26006D05E6 /* ViewController.swift */; };
 		18ED776B22B16D26006D05E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18ED776922B16D26006D05E6 /* Main.storyboard */; };
@@ -31,6 +32,7 @@
 		18B74C8222B2F75F00D17C55 /* Yellow.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Yellow.m4a; sourceTree = "<group>"; };
 		18B74C8A22B2F77900D17C55 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		18B74C8C22B3044D00D17C55 /* Red.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Red.mp3; sourceTree = "<group>"; };
+		18EC0CAF22B3EC5D0036F229 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		18ED776222B16D26006D05E6 /* kidsKolor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kidsKolor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18ED776522B16D26006D05E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18ED776722B16D26006D05E6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -93,6 +95,7 @@
 				18B74C8122B2F75F00D17C55 /* Green 2.m4a */,
 				18B74C7E22B2F75F00D17C55 /* Blue.m4a */,
 				18B74C8022B2F75F00D17C55 /* Purple.m4a */,
+				18EC0CAF22B3EC5D0036F229 /* Images.xcassets */,
 			);
 			path = kidsKolor;
 			sourceTree = "<group>";
@@ -159,6 +162,7 @@
 				18B74C8822B2F76000D17C55 /* Yellow.m4a in Resources */,
 				18ED776D22B16D28006D05E6 /* Assets.xcassets in Resources */,
 				18B74C8322B2F76000D17C55 /* Red.m4a in Resources */,
+				18EC0CB022B3EC5D0036F229 /* Images.xcassets in Resources */,
 				18ED776B22B16D26006D05E6 /* Main.storyboard in Resources */,
 				18B74C8522B2F76000D17C55 /* Orange.m4a in Resources */,
 				18B74C8D22B3044D00D17C55 /* Red.mp3 in Resources */,
@@ -321,6 +325,8 @@
 		18ED777522B16D28006D05E6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-4";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-3";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KB8V2UZV9Z;
 				INFOPLIST_FILE = kidsKolor/Info.plist;
@@ -338,6 +344,8 @@
 		18ED777622B16D28006D05E6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-4";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-3";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KB8V2UZV9Z;
 				INFOPLIST_FILE = kidsKolor/Info.plist;
