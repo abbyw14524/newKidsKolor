@@ -321,7 +321,6 @@
 		18ED777522B16D28006D05E6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KB8V2UZV9Z;
 				INFOPLIST_FILE = kidsKolor/Info.plist;
@@ -339,7 +338,6 @@
 		18ED777622B16D28006D05E6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KB8V2UZV9Z;
 				INFOPLIST_FILE = kidsKolor/Info.plist;
