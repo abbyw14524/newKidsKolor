@@ -84,7 +84,7 @@ class ViewController: UIViewController {
         audioPlayer.play()
     }
     
-    
+
     
     //page two image buttons
     @IBAction func hat2(_ sender: UIButton) {
